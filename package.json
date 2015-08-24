@@ -1,0 +1,46 @@
+{
+  "name": "skate",
+  "description": "Manage app state",
+  "version": "0.1.0",
+  "homepage": "https://github.com/ryanve/skate",
+  "license": "MIT",
+  "author": "Ryan Van Etten",
+  "keywords": ["state", "states"],
+  "main": "skate.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ryanve/skate.git"
+  },
+  "dependencies": {},
+  "optionalDependencies": {},
+  "devDependencies": {
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-jshint": "^0.11.0",
+    "universal": "^0.1.1"
+  },
+  "jshintConfig": {
+    "asi": true,
+    "boss": true,
+    "browser": true,
+    "debug": true,
+    "devel": true,
+    "eqnull": true,
+    "evil": true,
+    "expr": true,
+    "globals": {},
+    "lastsemic": true,
+    "latedef": "nofunc",
+    "laxcomma": true,
+    "maxcomplexity": 15,
+    "maxerr": 10,
+    "maxlen": 115,
+    "maxparams": 4,
+    "node": true,
+    "sub": true,
+    "supernew": true,
+    "trailing": true,
+    "undef": true,
+    "unused": true,
+    "worker": true
+  }
+}
