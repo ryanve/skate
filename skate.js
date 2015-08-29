@@ -1,5 +1,5 @@
 /*!
- * skate 0.1.0+201508240451
+ * skate 0.1.1+201508292255
  * https://github.com/ryanve/skate
  * @license MIT
  */
