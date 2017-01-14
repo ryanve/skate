@@ -56,4 +56,4 @@ state() // undefined
 [View the source](skate.js) to see how this works
 
 ## Playground
-[Try `skate` in your browser here](http://ryanve.github.io/skate/)
+[Try `skate` in your browser](http://ryanve.github.io/skate/)
