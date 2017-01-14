@@ -1,7 +1,7 @@
 {
   "name": "skate",
   "description": "Manage app state",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "homepage": "https://github.com/ryanve/skate",
   "license": "MIT",
   "author": "Ryan Van Etten",
