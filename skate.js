@@ -1,8 +1,3 @@
-/*!
- * skate 0.1.1+201508292255
- * https://github.com/ryanve/skate
- * @license MIT
- */
 !function(root, name, make) {
   if (typeof module != 'undefined' && module.exports) module.exports = make()
   else root[name] = make()
@@ -11,7 +6,7 @@
   return function skate() {
     var o = {}
     var has = o.hasOwnProperty
-    
+
     function state(k, v) {
       var n = arguments.length
       if (n == 2) {

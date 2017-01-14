@@ -5,19 +5,23 @@
   "homepage": "https://github.com/ryanve/skate",
   "license": "MIT",
   "author": "Ryan Van Etten",
-  "keywords": ["state", "states", "data"],
+  "keywords": [
+    "state",
+    "states",
+    "data",
+    "javascript",
+    "browser",
+    "server"
+  ],
   "main": "skate.js",
+  "scripts": {
+    "lint": "jshint skate.js && jshint test.js",
+    "pretest": "npm run lint",
+    "test": "node test.js"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/ryanve/skate.git"
-  },
-  "dependencies": {},
-  "optionalDependencies": {},
-  "devDependencies": {
-    "aok": "^1.9.0",
-    "grunt-contrib-concat": "^0.5.0",
-    "grunt-contrib-jshint": "^0.11.0",
-    "universal": "^0.1.1"
   },
   "jshintConfig": {
     "asi": true,
@@ -43,5 +47,9 @@
     "undef": true,
     "unused": true,
     "worker": true
+  },
+  "devDependencies": {
+    "aok": "^1.9.0",
+    "jshint": "^2.9.4"
   }
 }
