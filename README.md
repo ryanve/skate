@@ -32,6 +32,9 @@ you('talking', true)
 me('listening', true)
 ```
 
+## Playground
+[Try `skate` in your browser here](http://ryanve.github.io/skate/)
+
 ## Extension
 
 ### Use an [event emitter](https://github.com/ryanve/energy) to emit events when states change
